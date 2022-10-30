@@ -69,7 +69,7 @@ int main()
 
 	printf("Entrer un nombre: ");
 	scanf("%s", str);
-	printf("Entrer sa base: ");
+	printf("Entrer son base: ");
 	scanf("%d", &base1);
 	printf("\n");
 
@@ -96,9 +96,7 @@ int main()
 		}
 
 		entier = aDeci(str, base1);
-
 		n = entier;
-
 		int j = len(entier);
 
 		int T[j];
@@ -190,7 +188,7 @@ int main()
 		printf("\n");
 	}
 
-	// Traitement des nombres negatifs
+	// Traitement des nombres positifs
 	else if (str[0] != '-')
 	{
 
@@ -215,7 +213,7 @@ int main()
 			l++;
 		}
 
-		// La valeur signee et le complement a un et a deux est le meme
+		// La valeur signee et le complement a un et a deux est les meme
 		// dans le cas des nombre positif
 		printf("La valeur signee: ");
 
